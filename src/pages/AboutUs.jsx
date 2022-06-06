@@ -1,10 +1,11 @@
-import { AboutSection } from "../components";
+import { AboutSection, ServicesSection } from "../components";
 
 const AboutUs = () => {
   return (
-    <div>
+    <>
       <AboutSection />
-    </div>
+      <ServicesSection />
+    </>
   );
 };
 
